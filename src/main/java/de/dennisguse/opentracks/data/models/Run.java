@@ -30,4 +30,12 @@ public class Run {
     public void setTotalRunElevation(double totalRunElevation) {
         this.totalRunElevation = totalRunElevation;
     }
+
+    public List<TrackPoint> getTrackPointsList() {
+        return trackPointsList;
+    }
+
+    public void setTrackPointsList(List<TrackPoint> trackPointsList) {
+        this.trackPointsList = trackPointsList;
+    }
 }
